@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="stylesheet" href="spotifyright.css">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="leftnav">
+            <div class="log"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="32" fill="currentColor"
+                    aria-label="Spotify">
+                    <path
+                        d="M13.427.01C6.805-.253 1.224 4.902.961 11.524.698 18.147 5.853 23.728 12.476 23.99c6.622.263 12.203-4.892 12.466-11.514S20.049.272 13.427.01m5.066 17.579a.717.717 0 0 1-.977.268 14.4 14.4 0 0 0-5.138-1.747 14.4 14.4 0 0 0-5.42.263.717.717 0 0 1-.338-1.392c1.95-.474 3.955-.571 5.958-.29 2.003.282 3.903.928 5.647 1.92a.717.717 0 0 1 .268.978m1.577-3.15a.93.93 0 0 1-1.262.376 17.7 17.7 0 0 0-5.972-1.96 17.7 17.7 0 0 0-6.281.238.93.93 0 0 1-1.11-.71.93.93 0 0 1 .71-1.11 19.5 19.5 0 0 1 6.94-.262 19.5 19.5 0 0 1 6.599 2.165c.452.245.62.81.376 1.263m1.748-3.551a1.147 1.147 0 0 1-1.546.488 21.4 21.4 0 0 0-6.918-2.208 21.4 21.4 0 0 0-7.259.215 1.146 1.146 0 0 1-.456-2.246 23.7 23.7 0 0 1 8.034-.24 23.7 23.7 0 0 1 7.657 2.445c.561.292.78.984.488 1.546" />
+                </svg>
+            </div>
+            <div class="home">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24" fill="currentColor"
+                    aria-hidden="true">
+                    <path
+                        d="M13.5 1.515a3 3 0 0 0-3 0L3 5.845a2 2 0 0 0-1 1.732V21a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6h4v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V7.577a2 2 0 0 0-1-1.732z" />
+                </svg>
+
+            </div>
+            <div class="search-container">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24" fill="currentColor"
+                    aria-hidden="true">
+                    <path
+                        d="M10.533 1.27893C5.35215 1.27893 1.12598 5.41887 1.12598 10.5579C1.12598 15.697 5.35215 19.8369 10.533 19.8369C12.767 19.8369 14.8235 19.0671 16.4402 17.7794L20.7929 22.132C21.1834 22.5226 21.8166 22.5226 22.2071 22.132C22.5976 21.7415 22.5976 21.1083 22.2071 20.7178L17.8634 16.3741C19.1616 14.7849 19.94 12.7634 19.94 10.5579C19.94 5.41887 15.7138 1.27893 10.533 1.27893ZM3.12598 10.5579C3.12598 6.55226 6.42768 3.27893 10.533 3.27893C14.6383 3.27893 17.94 6.55226 17.94 10.5579C17.94 14.5636 14.6383 17.8369 10.533 17.8369C6.42768 17.8369 3.12598 14.5636 3.12598 10.5579Z" />
+                </svg>
+
+                <input type="text" placeholder="enter song name">
+            </div>
+        </div>
+        <div class="rightnav">
+            <button class="rnavbtn">Premium</button>
+            <button class="rnavbtn">Support</button>
+            <button class="rnavbtn">Download</button>
+            <div class="vline"></div>
+            <div class="install">
+
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" height="16"
+                        aria-hidden="true">
+                        <path
+                            d="M4.995 8.745a.75.75 0 0 1 1.06 0L7.25 9.939V4a.75.75 0 0 1 1.5 0v5.94l1.195-1.195a.75.75 0 1 1 1.06 1.06L8 12.811l-.528-.528-.005-.005-2.472-2.473a.75.75 0 0 1 0-1.06" />
+                        <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13" />
+                    </svg>
+
+                </div>
+                <button class="installbtn">install App</button>
+            </div>
+            <div class="signup"><button class="signupbtn">Sign up</button></div>
+            <div class="login"><button class="loginbtn">Login in</button></div>
+
+        </div>
+
+    </div>
+    <div class="main">
+        <div class="left">
+            <div class="library">
+                <h3>Your library</h3>
+                <div style="display: flex; gap: 20px;">
+                <div>+</div>
+                <svg fill="#ffffff" height="20px" width="20px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 460.775 460.775" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M285.08,230.397L456.218,59.27c6.076-6.077,6.076-15.911,0-21.986L423.511,4.565c-2.913-2.911-6.866-4.55-10.992-4.55 c-4.127,0-8.08,1.639-10.993,4.55l-171.138,171.14L59.25,4.565c-2.913-2.911-6.866-4.55-10.993-4.55 c-4.126,0-8.08,1.639-10.992,4.55L4.558,37.284c-6.077,6.075-6.077,15.909,0,21.986l171.138,171.128L4.575,401.505 c-6.074,6.077-6.074,15.911,0,21.986l32.709,32.719c2.911,2.911,6.865,4.55,10.992,4.55c4.127,0,8.08-1.639,10.994-4.55 l171.117-171.12l171.118,171.12c2.913,2.911,6.866,4.55,10.993,4.55c4.128,0,8.081-1.639,10.992-4.55l32.709-32.719 c6.074-6.075,6.074-15.909,0-21.986L285.08,230.397z"></path> </g></svg></div>
+                
+            </div>
+            <div class="leftline"></div>
+            <div class="scrollbar">
+                <div class="section">
+                    <div class="title">
+                        <h4>Create your first playlist<h4>
+                    </div>
+                    <div class="subtitle">It's easy, we'll help you</div>
+                    <button class="scrollbtn">Create playlist</button>
+                </div>
+
+                <div class="section">
+                    <div class="title">Let's find some podcasts to follow</div>
+                    <div class="subtitle">We'll keep you updated on new episodes</div>
+                    <a href="/genre/podcasts-web">
+                        <button class="scrollbtn">Browse podcasts</button>
+                    </a>
+                </div>
+            </div>
+            <div class="leftline"></div>
+            <div class="legal">
+                <div class="link-group">
+                    <span><a href="https://www.spotify.com/in-en/legal/">Legal</a></span>
+                    <span><a href="https://www.spotify.com/in-en/safetyandprivacy/">Safety & Privacy Center</a></span>
+                    <span><a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a></span>
+                    <span><a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a></span>
+                    <span><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a></span>
+                    <span><a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a></span>
+                </div>
+                <span class="cookie"><a href="https://www.spotify.com/legal/cookies-policy/" target="_blank"
+                        rel="noopener">Cookies</a></span>
+            </div>
+            <div class="english">
+                <button>
+                    <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="#fff">
+                        <path
+                            d="M8.152 16H8a8 8 0 1 1 .152 0m-.41-14.202c-.226.273-.463.713-.677 1.323-.369 1.055-.626 2.496-.687 4.129h3.547c-.06-1.633-.318-3.074-.687-4.129-.213-.61-.45-1.05-.676-1.323-.194-.235-.326-.285-.385-.296h-.044c-.055.007-.19.052-.391.296M4.877 7.25c.062-1.771.34-3.386.773-4.624q.148-.427.329-.806a6.51 6.51 0 0 0-4.436 5.43zm-3.334 1.5a6.51 6.51 0 0 0 4.436 5.43 8 8 0 0 1-.33-.806c-.433-1.238-.71-2.853-.772-4.624zm4.835 0c.061 1.633.318 3.074.687 4.129.214.61.451 1.05.677 1.323.202.244.336.29.391.297l.044-.001c.06-.01.19-.061.385-.296.226-.273.463-.713.676-1.323.37-1.055.626-2.496.687-4.129zm5.048 0c-.061 1.771-.339 3.386-.772 4.624q-.123.353-.268.674a6.5 6.5 0 0 0 4.071-5.298zm3.031-1.5a6.51 6.51 0 0 0-4.071-5.298q.145.322.268.674c.433 1.238.711 2.853.772 4.624z" />
+                    </svg>
+                    <span>English</span>
+                </button>
+            </div>
+
+        </div>
+        <div class="right">
+            <div class="rightmain">
+                <section class="s1">
+                    <div class="s1head">
+                        <h1>Trending songs</h1>
+                        <h4>Show all</h4>
+                    </div>
+                    <div class="s1scroll">
+                        <div class="card1"  data-audio="http://127.0.0.1:5500/audio/NIVIRO%20-%20The%20Ghost%20%5BNCS%20Release%5D.mp3">
+                            <div class="playbtn">
+                                <button onclick=playsongs(event)>
+                                <svg height="50px" width="50px" version="1.1" id="Layer_1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    viewBox="0 0 496.158 496.158" xml:space="preserve" fill="#000000">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path style="fill:#6ddd31;"
+                                            d="M496.158,248.085c0-137.021-111.07-248.082-248.076-248.082C111.07,0.002,0,111.062,0,248.085 c0,137.002,111.07,248.071,248.083,248.071C385.088,496.155,496.158,385.086,496.158,248.085z">
+                                        </path>
+                                        <path style="fill:#000000;"
+                                            d="M370.805,235.242L195.856,127.818c-4.776-2.934-11.061-3.061-15.951-0.322 c-4.979,2.785-8.071,8.059-8.071,13.762v214c0,5.693,3.083,10.963,8.046,13.752c2.353,1.32,5.024,2.02,7.725,2.02 c2.897,0,5.734-0.797,8.205-2.303l174.947-106.576c4.657-2.836,7.556-7.986,7.565-13.44 C378.332,243.258,375.452,238.096,370.805,235.242z">
+                                        </path>
+                                    </g>
+                                </svg>
+                                </button>
+                            </div>
+                            <img src="https://i.scdn.co/image/ab67616d00001e026fbb60d6a7e03ccb940a518e" alt="it">
+                            <h3>Himesh jatolia</h3>
+                            <p>asdasd,asdasdas</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="s2">
+                    <div class="s2head">
+                        <h1>Popular Artist</h1>
+                        <h4>Show all</h4>
+                    </div>
+                    <div class="s2scroll">
+                    <div class="card2">
+                        <div class="playbtn">
+                            <svg height="50px" width="50px" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 496.158 496.158" xml:space="preserve" fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path style="fill:#6ddd31;"
+                                        d="M496.158,248.085c0-137.021-111.07-248.082-248.076-248.082C111.07,0.002,0,111.062,0,248.085 c0,137.002,111.07,248.071,248.083,248.071C385.088,496.155,496.158,385.086,496.158,248.085z">
+                                    </path>
+                                    <path style="fill:#000000;"
+                                        d="M370.805,235.242L195.856,127.818c-4.776-2.934-11.061-3.061-15.951-0.322 c-4.979,2.785-8.071,8.059-8.071,13.762v214c0,5.693,3.083,10.963,8.046,13.752c2.353,1.32,5.024,2.02,7.725,2.02 c2.897,0,5.734-0.797,8.205-2.303l174.947-106.576c4.657-2.836,7.556-7.986,7.565-13.44 C378.332,243.258,375.452,238.096,370.805,235.242z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e026fbb60d6a7e03ccb940a518e" alt="it">
+                        <h3>Himesh jatolia</h3>
+                        <p>Artist</p>
+                    </div>
+                    </div>
+                </section>
+                 <section class="s3">
+                    <div class="s2head">
+                        <h1>Popular albums and singles</h1>
+                        <h4>Show all</h4>
+                    </div>
+                    <div class="s3scroll">
+                    <div class="card3">
+                        <div class="playbtn">
+                            <svg height="50px" width="50px" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 496.158 496.158" xml:space="preserve" fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path style="fill:#6ddd31;"
+                                        d="M496.158,248.085c0-137.021-111.07-248.082-248.076-248.082C111.07,0.002,0,111.062,0,248.085 c0,137.002,111.07,248.071,248.083,248.071C385.088,496.155,496.158,385.086,496.158,248.085z">
+                                    </path>
+                                    <path style="fill:#000000;"
+                                        d="M370.805,235.242L195.856,127.818c-4.776-2.934-11.061-3.061-15.951-0.322 c-4.979,2.785-8.071,8.059-8.071,13.762v214c0,5.693,3.083,10.963,8.046,13.752c2.353,1.32,5.024,2.02,7.725,2.02 c2.897,0,5.734-0.797,8.205-2.303l174.947-106.576c4.657-2.836,7.556-7.986,7.565-13.44 C378.332,243.258,375.452,238.096,370.805,235.242z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                        <img id="s2i" src="https://i.scdn.co/image/ab67616d00001e026fbb60d6a7e03ccb940a518e" alt="it">
+                        <h3 id="s2h">Himesh jatolia</h3>
+                        <p id="s2p">Artist</p>
+                    </div>
+                    </div>
+                </section> 
+                <section class="s4">
+                    <div class="s2head">
+                        <h1>Popular radio</h1>
+                        <h4>Show all</h4>
+                    </div>
+                    <div class="card4">
+                        <div class="playbtn">
+                            <svg height="50px" width="50px" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 496.158 496.158" xml:space="preserve" fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path style="fill:#6ddd31;"
+                                        d="M496.158,248.085c0-137.021-111.07-248.082-248.076-248.082C111.07,0.002,0,111.062,0,248.085 c0,137.002,111.07,248.071,248.083,248.071C385.088,496.155,496.158,385.086,496.158,248.085z">
+                                    </path>
+                                    <path style="fill:#000000;"
+                                        d="M370.805,235.242L195.856,127.818c-4.776-2.934-11.061-3.061-15.951-0.322 c-4.979,2.785-8.071,8.059-8.071,13.762v214c0,5.693,3.083,10.963,8.046,13.752c2.353,1.32,5.024,2.02,7.725,2.02 c2.897,0,5.734-0.797,8.205-2.303l174.947-106.576c4.657-2.836,7.556-7.986,7.565-13.44 C378.332,243.258,375.452,238.096,370.805,235.242z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e026fbb60d6a7e03ccb940a518e" alt="it">
+                        <h3>Himesh jatolia</h3>
+                        <p>Artist</p>
+                </section>
+                <section class="s5">
+                    <div class="s2head">
+                        <h1>Featured Charts</h1>
+                        <h4>Show all</h4>
+                    </div>
+                    <div class="card5">
+                        <div class="playbtn">
+                            <svg height="50px" width="50px" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 496.158 496.158" xml:space="preserve" fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path style="fill:#6ddd31;"
+                                        d="M496.158,248.085c0-137.021-111.07-248.082-248.076-248.082C111.07,0.002,0,111.062,0,248.085 c0,137.002,111.07,248.071,248.083,248.071C385.088,496.155,496.158,385.086,496.158,248.085z">
+                                    </path>
+                                    <path style="fill:#000000;"
+                                        d="M370.805,235.242L195.856,127.818c-4.776-2.934-11.061-3.061-15.951-0.322 c-4.979,2.785-8.071,8.059-8.071,13.762v214c0,5.693,3.083,10.963,8.046,13.752c2.353,1.32,5.024,2.02,7.725,2.02 c2.897,0,5.734-0.797,8.205-2.303l174.947-106.576c4.657-2.836,7.556-7.986,7.565-13.44 C378.332,243.258,375.452,238.096,370.805,235.242z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e026fbb60d6a7e03ccb940a518e" alt="it">
+                        <h3>Himesh jatolia</h3>
+                        <p>Artist</p>
+                </section>
+                <section class="s6">
+                    <div class="s2head">
+                        <h1>India's Best</h1>
+                        <h4>Show all</h4>
+                    </div>
+                    <div class="card6">
+                        <div class="playbtn">
+                            <svg height="50px" width="50px" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 496.158 496.158" xml:space="preserve" fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path style="fill:#6ddd31;"
+                                        d="M496.158,248.085c0-137.021-111.07-248.082-248.076-248.082C111.07,0.002,0,111.062,0,248.085 c0,137.002,111.07,248.071,248.083,248.071C385.088,496.155,496.158,385.086,496.158,248.085z">
+                                    </path>
+                                    <path style="fill:#000000;"
+                                        d="M370.805,235.242L195.856,127.818c-4.776-2.934-11.061-3.061-15.951-0.322 c-4.979,2.785-8.071,8.059-8.071,13.762v214c0,5.693,3.083,10.963,8.046,13.752c2.353,1.32,5.024,2.02,7.725,2.02 c2.897,0,5.734-0.797,8.205-2.303l174.947-106.576c4.657-2.836,7.556-7.986,7.565-13.44 C378.332,243.258,375.452,238.096,370.805,235.242z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e026fbb60d6a7e03ccb940a518e" alt="it">
+                        <h3>Himesh jatolia</h3>
+                        <p>Artist</p>
+                </section>
+                <div class="footerright">
+                    <hr>
+                    <div class="footsplit">
+                        <div class="policy">
+                            <ul class="footer-links">
+                                <p class="footer-heading">Company</p>
+                                <li><a href="https://www.spotify.com/in-en/about-us/contact/">About</a></li>
+                                <li><a href="https://www.lifeatspotify.com/">Jobs</a></li>
+                                <li><a href="https://newsroom.spotify.com/">For the Record</a></li>
+                            </ul>
+                            <ul>
+                                <p class="footer-heading">Communities</p>
+                                <li><a href="https://artists.spotify.com/">For Artists</a></li>
+                                <li><a href="https://developer.spotify.com/">Developers</a></li>
+                                <li><a href="https://ads.spotify.com/">Advertising</a></li>
+                                <li><a href="https://investors.spotify.com/">Investors</a></li>
+                                <li><a href="https://spotifyforvendors.com/">Vendors</a></li>
+                            </ul>
+                            <ul>
+                                <p class="footer-heading">Useful links</p>
+                                <li><a href="https://support.spotify.com/">Support</a></li>
+                                <li><a href="https://www.spotify.com/in-en/free/">Free Mobile App</a></li>
+                            </ul>
+                            <ul>
+                                <p class="footer-heading">Spotify Plans</p>
+                                <li><a
+                                        href="https://www.spotify.com/in-en/premium/#ref=spotifycom_footer_premium_individual">Premium
+                                        Individual</a></li>
+                                <li><a href="https://www.spotify.com/in-en/duo/#ref=spotifycom_footer_premium_duo">Premium
+                                        Duo</a></li>
+                                <li><a
+                                        href="https://www.spotify.com/in-en/family/#ref=spotifycom_footer_premium_family">Premium
+                                        Family</a></li>
+                                <li><a
+                                        href="https://www.spotify.com/in-en/student/#ref=spotifycom_footer_premium_student">Premium
+                                        Student</a></li>
+                                <li><a href="https://www.spotify.com/in-en/free/#ref=spotifycom_footer_free">Spotify
+                                        Free</a></li>
+                            </ul>
+                    </div>
+                
+                    <div class="socialapp">
+                        <a href="https://instagram.com/spotify" target="_blank" rel="noopener noreferrer"
+                            aria-label="Instagram" title="Instagram">
+                            <svg data-encore-id="icon" role="img" height="30px" width="30px" aria-hidden="true" class="e-9960-icon e-9960-baseline" viewBox="0 0 16 16" style="--encore-icon-fill: var(--text-base, #000000); --encore-icon-height: var(--encore-graphic-size-decorative-smaller); --encore-icon-width: var(--encore-graphic-size-decorative-smaller);"><path d="M8 1.44c2.136 0 2.389.009 3.233.047.78.036 1.203.166 1.485.276.348.128.663.332.921.598.266.258.47.573.599.921.11.282.24.706.275 1.485.039.844.047 1.097.047 3.233s-.008 2.389-.047 3.232c-.035.78-.166 1.204-.275 1.486a2.65 2.65 0 0 1-1.518 1.518c-.282.11-.706.24-1.486.275-.843.039-1.097.047-3.233.047s-2.39-.008-3.232-.047c-.78-.035-1.204-.165-1.486-.275a2.5 2.5 0 0 1-.921-.599 2.5 2.5 0 0 1-.599-.92c-.11-.282-.24-.706-.275-1.486-.038-.844-.047-1.096-.047-3.232s.009-2.39.047-3.233c.036-.78.166-1.203.275-1.485.129-.348.333-.663.599-.921a2.5 2.5 0 0 1 .92-.599c.283-.11.707-.24 1.487-.275.843-.038 1.096-.047 3.232-.047L8 1.441zm.001-1.442c-2.172 0-2.445.01-3.298.048-.854.04-1.435.176-1.943.373a3.9 3.9 0 0 0-1.417.923c-.407.4-.722.883-.923 1.417-.198.508-.333 1.09-.372 1.942S0 5.826 0 8c0 2.172.01 2.445.048 3.298.04.853.174 1.433.372 1.941.2.534.516 1.017.923 1.417.4.407.883.722 1.417.923.508.198 1.09.333 1.942.372s1.126.048 3.299.048 2.445-.01 3.298-.048c.853-.04 1.433-.174 1.94-.372a4.1 4.1 0 0 0 2.34-2.34c.199-.508.334-1.09.373-1.942S16 10.172 16 7.999s-.01-2.445-.048-3.298c-.04-.853-.174-1.433-.372-1.94a3.9 3.9 0 0 0-.923-1.418A3.9 3.9 0 0 0 13.24.42c-.508-.197-1.09-.333-1.942-.371-.851-.041-1.125-.05-3.298-.05z"></path><path d="M8 3.892a4.108 4.108 0 1 0 0 8.216 4.108 4.108 0 0 0 0-8.216m0 6.775a2.668 2.668 0 1 1 0-5.335 2.668 2.668 0 0 1 0 5.335m4.27-5.978a.96.96 0 1 0 0-1.92.96.96 0 0 0 0 1.92"></path></svg>
+                        </a>
+                        <a href="https://twitter.com/spotify" target="_blank" rel="noopener noreferrer"
+                            aria-label="Twitter" title="Twitter">
+                            <svg data-encore-id="icon" height="30px" width="30px" role="img" aria-hidden="true" class="e-9960-icon e-9960-baseline" viewBox="0 0 16 16" style="--encore-icon-fill: var(--text-base, #000000); --encore-icon-height: var(--encore-graphic-size-decorative-smaller); --encore-icon-width: var(--encore-graphic-size-decorative-smaller);"><path d="M13.54 3.889a2.97 2.97 0 0 0 1.333-1.683 6 6 0 0 1-1.929.738 3 3 0 0 0-.996-.706 3 3 0 0 0-1.218-.254 2.92 2.92 0 0 0-2.143.889 2.93 2.93 0 0 0-.889 2.15q0 .318.08.691a8.5 8.5 0 0 1-3.484-.932A8.5 8.5 0 0 1 1.532 2.54a3 3 0 0 0-.413 1.523q0 .778.361 1.445.36.668.988 1.08a2.9 2.9 0 0 1-1.373-.374v.04q0 1.088.69 1.92a2.97 2.97 0 0 0 1.739 1.048 2.94 2.94 0 0 1-1.365.056 2.94 2.94 0 0 0 1.063 1.5 2.95 2.95 0 0 0 1.77.603 5.94 5.94 0 0 1-3.77 1.302q-.365 0-.722-.048A8.4 8.4 0 0 0 5.15 14q1.358 0 2.572-.361 1.215-.36 2.147-.988a9 9 0 0 0 1.683-1.46q.75-.834 1.234-1.798a9.5 9.5 0 0 0 .738-1.988 8.4 8.4 0 0 0 .246-2.429 6.2 6.2 0 0 0 1.508-1.563q-.84.373-1.738.476"></path></svg>
+                            <!-- <img src="icons/twitter.svg" alt="Twitter"> -->
+                        </a>
+                        <a href="https://www.facebook.com/Spotify"  target="_blank" rel="noopener noreferrer"
+                            aria-label="Facebook" title="Facebook">
+                           <svg data-encore-id="icon" role="img" height="30px" width="30px" aria-hidden="true" class="e-9960-icon e-9960-baseline" viewBox="0 0 16 16" style="--encore-icon-height: var(--encore-graphic-size-decorative-smaller); --encore-icon-width: var(--encore-graphic-size-decorative-smaller);"><path d="M16 8a8 8 0 1 0-9.25 7.903v-5.59H4.719V8H6.75V6.237c0-2.005 1.194-3.112 3.022-3.112.875 0 1.79.156 1.79.156V5.25h-1.008c-.994 0-1.304.617-1.304 1.25V8h2.219l-.355 2.313H9.25v5.59A8 8 0 0 0 16 8"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                </div>
+                <hr id="s1">
+                <div id="s2">© 2025 Spotify AB</div>
+            </div>
+            <div class="playbar">
+                <div class="songbtn">
+                    <img src="/image/play-previous-svgrepo-com.svg" alt="pre" height="30px">
+                    <img  class="music1" src="/image/pause-svgrepo-com.svg" alt="kk" height="30px">
+                    <img src="/image/play-next-svgrepo-com.svg" alt="jj" height="30px">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div class="foottxt">
+            <strong>Preview of Spotify</strong>
+            <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+        </div>
+        <button class="loginftrbtn">Sign up free</button>
+    </footer>
+    <script src="/spotify.js"></script>
+
+</body>
+
+</html>
